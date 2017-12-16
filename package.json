@@ -1,0 +1,21 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Typescript com Node, ES6, Express e Postgre",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaellavm/Typescript_Node_ES6_UD.git"
+  },
+  "author": "Marraschi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaellavm/Typescript_Node_ES6_UD/issues"
+  },
+  "homepage": "https://github.com/rafaellavm/Typescript_Node_ES6_UD#readme"
+}
