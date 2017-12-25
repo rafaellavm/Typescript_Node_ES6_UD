@@ -13,9 +13,9 @@ let variavel = 10;
 
 //console.log(variavel3);
 
-//function soma(a,b):number{
+function soma(a,b):number{
 
-    ///return a+b;
-//}///
+    return a+b;
+}///
 
-console.log('oii');
+console.log(soma(1,2));

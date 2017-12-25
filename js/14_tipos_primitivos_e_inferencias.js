@@ -6,7 +6,7 @@ var variavel = 10;
 //console.log(typeof variavel2);
 //let variavel3 : any ='10'; //any: aceita qualquer valor na variável
 //console.log(variavel3);
-//function soma(a,b):number{
-///return a+b;
-//}///
-console.log('oii');
+function soma(a, b) {
+    return a + b;
+} ///
+console.log(soma(1, 2));
