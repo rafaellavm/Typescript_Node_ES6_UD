@@ -18,9 +18,10 @@ var sobrenome = pessoa.sobrenome;
 //console.log(nome, sobrenome);
 //em typescript:
 var pessoa2 = {
-    "nome": "Rafaela",
-    "sobrenome": "Marraschi"
+    'nome': 'Rafaela',
+    'sobrenome': 'Marraschi'
 };
 var nome2, sobrenome2;
+console.log(nome2, pessoa2.nome);
 (nome2 = pessoa2.nome2, sobrenome2 = pessoa2.sobrenome2);
 console.log(nome2, sobrenome2);

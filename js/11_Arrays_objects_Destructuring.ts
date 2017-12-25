@@ -32,14 +32,16 @@ var sobrenome = pessoa.sobrenome;
 
 //em typescript:
 
-let pessoa2 = {
+let pessoa2: { [index: string]: string } = {
+    'nome': 'Rafaela',
+    'sobrenome': 'Marraschi'
+  }
 
-    "nome" : "Rafaela",
-    "sobrenome": "Marraschi"
-}
+  
+  let nome2, sobrenome2;
 
-let nome2, sobrenome2;
-
-({nome2,sobrenome2} = pessoa2);
+  console.log(nome2,pessoa2.nome);
+  
+  ({ nome2, sobrenome2 } = pessoa2);
 
 console.log(nome2, sobrenome2);
